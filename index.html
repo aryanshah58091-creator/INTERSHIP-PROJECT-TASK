@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Front-End Internship Submission Portfolio Portal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="showcase-container">
+        
+        <!-- Header Banner with Animated Brand Logo SVG -->
+        <header class="main-header">
+            <div class="brand-wrapper">
+                <!-- Fetch our high-quality custom animated SVG logo -->
+                <img src="assets/cognifyz-logo.svg" alt="Cognifyz Technologies Logo" style="width: 100%; height: auto;">
+            </div>
+            <h1>Front-End Internship Portfolio</h1>
+            <p class="subtitle">A dynamic, responsive showcase of 8 professional development tasks completed across 4 proficiency tiers.</p>
+        </header>
+
+        <!-- Internship Progress Tracker Dashboard panel -->
+        <section class="stats-panel">
+            <div class="stats-row">
+                <div class="stats-meta">
+                    <h2 class="stats-title">Internship Progress Overview</h2>
+                    <p class="stats-desc">Syllabus requirements: 6/8 tasks. Completed: <strong>8/8 tasks</strong> (100% complete).</p>
+                </div>
+                <!-- Dynamic progress bars -->
+                <div class="progress-box">
+                    <span class="stats-desc">Syllabus Completion</span>
+                    <div class="progress-track">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span class="progress-val">8/8 Tasks</span>
+                </div>
+            </div>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; font-size: 0.88rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.06); padding-top: 15px;">
+                <span>🟢 Status: <strong style="color: white;">Evaluator Sandbox Ready</strong></span>
+                <span>•</span>
+                <span>⚡ Experience Tier: <strong style="color: #a855f7;">Expert Tier (Sass & Bootstrap)</strong></span>
+                <span>•</span>
+                <span>🔥 Accessibility Check: <strong style="color: #10b981;">Passed (Semantic HTML5)</strong></span>
+            </div>
+        </section>
+
+        <!-- Levels grid section -->
+        <section class="levels-grid">
+
+            <!-- LEVEL 1: BEGINNER -->
+            <article class="level-card">
+                <div class="level-card-header">
+                    <span class="level-badge">Level 1 - Beginner</span>
+                    <h3 class="level-title">Interactive HTML & Inline CSS</h3>
+                    <p class="level-desc">Foundational layout structures, semantic HTML5 tags to ensure search-engine readability (SEO), and custom element-level inline styles.</p>
+                    
+                    <ul class="tasks-checklist">
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 1: Basic HTML Structure</strong>
+                                <span>Created standard structural layouts with semantic header, main, and footer nodes.</span>
+                            </div>
+                        </li>
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 2: Inline CSS Custom Styling</strong>
+                                <span>Applied custom element-level inline properties, margins, paddings, backgrounds, and shadows.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="level1_beginner/index.html" class="btn-launch" target="_blank">Launch Task 1 ↗</a>
+                    <a href="level1_beginner/inline_styling.html" class="btn-secondary-custom" target="_blank">View Task 2</a>
+                </div>
+            </article>
+
+            <!-- LEVEL 2: INTERMEDIATE -->
+            <article class="level-card">
+                <div class="level-card-header">
+                    <span class="level-badge">Level 2 - Intermediate</span>
+                    <h3 class="level-title">Responsive Design & Interactivity</h3>
+                    <p class="level-desc">Mobile-first fluid layouts utilizing CSS Grid/Flexbox modules alongside click interaction listeners triggering custom canvas animations.</p>
+                    
+                    <ul class="tasks-checklist">
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 3: Mobile-First Responsive Grids</strong>
+                                <span>Built responsive portfolio items adapting to mobile (single col), tablet (double col), and desktop (triple col).</span>
+                            </div>
+                        </li>
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 4: Interactive Background & Particles</strong>
+                                <span>Implemented smooth multi-stop ambient background transitions paired with canvas explosive particle clusters.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="level2_intermediate/index.html" class="btn-launch" target="_blank">Launch Project ↗</a>
+                </div>
+            </article>
+
+            <!-- LEVEL 3: ADVANCED -->
+            <article class="level-card">
+                <div class="level-card-header">
+                    <span class="level-badge">Level 3 - Advanced</span>
+                    <h3 class="level-title">REST API & Form Validation</h3>
+                    <p class="level-desc">Dynamic API integrations with robust local sandboxed fallbacks, live list querying, and form validators with floating labels.</p>
+                    
+                    <ul class="tasks-checklist">
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 5: REST API Integration & Filtering</strong>
+                                <span>Used fetch() API to parse user details. Gracefully handles network loss via local cache fallbacks.</span>
+                            </div>
+                        </li>
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 6: Strict Custom Form Validation</strong>
+                                <span>Configured regex patterns for real-time validation checks and floating label styles.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="level3_advanced/index.html" class="btn-launch" target="_blank">Launch Project ↗</a>
+                </div>
+            </article>
+
+            <!-- LEVEL 4: EXPERT -->
+            <article class="level-card">
+                <div class="level-card-header">
+                    <span class="level-badge">Level 4 - Expert</span>
+                    <h3 class="level-title">Bootstrap System & Sass Preprocessing</h3>
+                    <p class="level-desc">Modern enterprise-grade cloud analytics dashboard using Bootstrap components customized via structured SASS preprocessor files.</p>
+                    
+                    <ul class="tasks-checklist">
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 7: Bootstrap Component Styling</strong>
+                                <span>Integrated framework navbars, alert badges, progress grids, and trigger modal nodes.</span>
+                            </div>
+                        </li>
+                        <li class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <div class="checklist-details">
+                                <strong>Task 8: SASS Preprocessing Engine</strong>
+                                <span>Written modular styles.scss files using nested rules, mixins, custom styling structures and local compilers.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="level4_expert/index.html" class="btn-launch" target="_blank">Launch Project ↗</a>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Internship Submission & LinkedIn Post Helper Area (Fulfills guidelines) -->
+        <section class="helper-section">
+            <h2>🎓 Internship Submission Helper</h2>
+            <p>
+                The internship instructions require building a separate directory for each level, creating a professional 
+                presentation video showcasing your work, and posting it on LinkedIn tagging Cognifyz Technologies. 
+                Click below to generate a tailored LinkedIn Post and a structured Video Presentation Script to make your submission stand out!
+            </p>
+            <button id="open-helper-btn" class="btn-helper-trigger">
+                <span>🏆</span> Open Submission Helper
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-nav">
+            <p>&copy; 2026 Front-End Development Internship Portfolio. Designed for Cognifyz. All rights reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 5px; color: rgba(255,255,255,0.3);">
+                Built byHP. Evaluated for final certification.
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- Submission Helper Modal Overlay -->
+    <div class="modal-overlay" id="helper-modal">
+        <div class="modal-box">
+            
+            <div class="modal-header">
+                <h3 class="modal-title">🏆 Internship Submission Companion Panel</h3>
+                <button class="modal-close" id="close-helper-btn">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                
+                <!-- Navigation Tabs inside Modal -->
+                <div class="modal-tabs">
+                    <button class="modal-tab-btn active" data-target="linkedin-tab">LinkedIn Post Copy</button>
+                    <button class="modal-tab-btn" data-target="script-tab">Video Recording Script</button>
+                    <button class="modal-tab-btn" data-target="rules-tab">Submission Checklist</button>
+                </div>
+
+                <!-- TAB 1: LINKEDIN POST -->
+                <div class="tab-pane active" id="linkedin-tab">
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">
+                        Copy and paste this professionally crafted post to LinkedIn. Don't forget to link your demonstration video!
+                    </p>
+                    <div class="copy-block">
+                        <button class="btn-copy" onclick="copyTextContent('linkedin-copy-text')">Copy Post</button>
+                        <div class="copy-text" id="linkedin-copy-text">
+🚀 Thrilled to announce the successful completion of my Front-End Development Internship with Cognifyz Technologies!
+
+During this intensive internship, I worked across 4 proficiency tiers—implementing a series of 8 comprehensive frontend tasks that advanced my engineering skill set:
+
+🔹 Tier 1 (Beginner): Fleshed out structured semantic HTML5 documents optimizing for web accessibility (SEO) and implemented granular element styling comparisons using inline CSS overrides.
+🔹 Tier 2 (Intermediate): Developed a fully mobile-first responsive portfolio grid, layering dynamic JavaScript behaviors that trigger radial ambient canvas particle bursts upon coordinate interactions.
+🔹 Tier 3 (Advanced): Engineered a dynamic client explorer panel integrating the JSONPlaceholder REST API (with resilient offline sandboxed fallbacks) and created feedback registers complete with floating labels and real-time custom regex validations.
+🔹 Tier 4 (Expert): Configured a full cloud instances dashboard using Bootstrap 5 layout modules customized natively through an automated Sass (SCSS) preprocessor variables, mixins, and nested structure compiling pipeline!
+
+This portfolio highlights my growth in building premium, responsive, and tactile web interfaces. Check out my project demonstration video below!
+
+Sincere thanks to the entire team at Cognifyz Technologies for providing this rigorous learning workspace.
+
+#cognifyz #cognifyztech #cognifyztechnologies #frontenddevelopment #webdesign #html #css #javascript #sass #bootstrap #responsive #portfolio
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: VIDEO RECORDING SCRIPT -->
+                <div class="tab-pane" id="script-tab">
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">
+                        Fulfill the video requirement by recording a short (1-2 minute) screen capture of your browser using this easy, professional script.
+                    </p>
+                    <div class="copy-block">
+                        <button class="btn-copy" onclick="copyTextContent('script-copy-text')">Copy Script</button>
+                        <div class="copy-text" id="script-copy-text">
+[SCENE: Show the central Portfolio Showcase Portal in your web browser]
+"Hello, my name is [Your Name], and today I am excited to showcase my Front-End Development Internship submission developed for Cognifyz Technologies. To present my work in the cleanest possible format, I created this master Portfolio Showcase Hub. It aggregates all 8 completed internship tasks across 4 core levels."
+
+[ACTION: Hover over the Level 1 card and click 'Launch Task 1']
+"At Level 1, I built two semantic HTML layouts. The first showcases strict structural markup to secure optimal browser accessibility and SEO parsing. The second replicates this, but styled completely using elements-level inline CSS rules to demonstrate absolute mastery over CSS core styling properties."
+
+[ACTION: Go back to Hub, hover over Level 2 card, click 'Launch Project']
+"At Level 2, I created a fully mobile-first responsive portfolio. As you can see, when I resize the browser window, the grid layout shifts cleanly from a single column on mobile, to two columns on tablets, and three columns on desktop. Clicking the 'Trigger Ambient Shift' button triggers a smooth CSS ambient color-gradient transition on the body background, while generating an explosive canvas particle burst on click points, demonstrating custom interactive JavaScript loops."
+
+[ACTION: Go back to Hub, hover over Level 3 card, click 'Launch Project']
+"Level 3 targets Advanced integration. This panel uses fetch() to query live user profiles from the JSONPlaceholder REST API. If I type in the search bar, it refilters the users in real-time. If network latency occurs, it gracefully loads local cached sandbox records. Below the explorer, I built a feedback form decorated with CSS floating labels. It features real-time client-side checks—such as email regex, numeric phone patterns, and message length, outputting custom inline alert banners for input errors."
+
+[ACTION: Go back to Hub, hover over Level 4 card, click 'Launch Project']
+"Finally, Level 4 represents Expert deployment. I designed an admin control panel using Bootstrap 5 responsive navbar, grid columns, tables, alert badges, and action modals. To customize the framework styles, I wrote a modular 'styles.scss' preprocessor file incorporating Sass variables, mixins, and nested rules, compiled into CSS using an automated compiler script."
+
+[SCENE: Return to Showcase Hub]
+"Completing these 8 tasks has greatly expanded my understanding of modern responsive designs, preprocessed pipelines, and API integrations. I want to thank Cognifyz Technologies for this amazing opportunity. Thank you!"
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: SUBMISSION RULES CHECKLIST -->
+                <div class="tab-pane" id="rules-tab">
+                    <h4 style="color: white; margin-bottom: 12px;">Fulfilling All Internship Regulations</h4>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+                        Ensure you satisfy every guideline outlined in the internship brochure prior to submitting the Google Form:
+                    </p>
+                    
+                    <ul style="color: #cbd5e1; font-size: 0.92rem; padding-left: 20px; display: flex; flex-direction: column; gap: 10px;">
+                        <li><strong>📁 Directory Isolation:</strong> All tasks must be stored in distinct, separate directories (`level1_beginner`, `level2_intermediate`, `level3_advanced`, `level4_expert`) as configured in this workspace.</li>
+                        <li><strong>📹 Screen Recording:</strong> Record a high-quality video walkthrough (1 to 2 minutes) running through the completed browser screens using the script provided in Tab 2.</li>
+                        <li><strong>🔗 LinkedIn Host:</strong> Upload the video onto your LinkedIn profile, write a short post (copyable text in Tab 1), and tag <strong>Cognifyz Technologies</strong>.</li>
+                        <li><strong>🏷️ Hashtag Placement:</strong> Include <code>#cognifyz</code>, <code>#cognifyztech</code>, and <code>#cognifyztechnologies</code> inside your LinkedIn post to ensure validation tracking.</li>
+                        <li><strong>📋 Google Form:</strong> Complete the final internship submission form (to be shared by Cognifyz later) linking your LinkedIn post and workspace files.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Main interactivity scripts -->
+    <script>
+        // Modal toggling
+        const openHelperBtn = document.getElementById("open-helper-btn");
+        const closeHelperBtn = document.getElementById("close-helper-btn");
+        const helperModal = document.getElementById("helper-modal");
+
+        openHelperBtn.addEventListener("click", () => {
+            helperModal.classList.add("active");
+        });
+
+        closeHelperBtn.addEventListener("click", () => {
+            helperModal.classList.remove("active");
+        });
+
+        // Close modal if clicking outside the box
+        helperModal.addEventListener("click", (e) => {
+            if (e.target === helperModal) {
+                helperModal.classList.remove("active");
+            }
+        });
+
+        // Tab Switching Logic inside Modal
+        const tabButtons = document.querySelectorAll(".modal-tab-btn");
+        const tabPanes = document.querySelectorAll(".tab-pane");
+
+        tabButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const target = btn.getAttribute("data-target");
+
+                // Remove active classes
+                tabButtons.forEach(b => b.classList.remove("active"));
+                tabPanes.forEach(p => p.classList.remove("active"));
+
+                // Add active classes
+                btn.classList.add("active");
+                document.getElementById(target).classList.add("active");
+            });
+        });
+
+        // Copy Text Helper Function
+        function copyTextContent(elementId) {
+            const copyText = document.getElementById(elementId).textContent.trim();
+            
+            navigator.clipboard.writeText(copyText).then(() => {
+                const btn = document.querySelector(`#${elementId} ~ .btn-copy`) || 
+                            document.querySelector(`[onclick="copyTextContent('${elementId}')"]`);
+                
+                if (btn) {
+                    const originalText = btn.textContent;
+                    btn.textContent = "Copied! ✓";
+                    btn.style.background = "#10b981";
+                    btn.style.color = "#060913";
+                    
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.style.background = "";
+                        btn.style.color = "";
+                    }, 2000);
+                }
+            }).catch(err => {
+                console.error("Copy failed:", err);
+                alert("Unable to copy automatically. Please select the text manually.");
+            });
+        }
+    </script>
+</body>
+</html>
